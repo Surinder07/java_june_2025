@@ -1,0 +1,92 @@
+## Recap 
+
+
+1. Loops - while, do-while, forloop, ternary operator 
+2. coding bat 
+
+
+## Classes and Objects 
+
+Class ? 
+
+user defined data type , which has some properties and behaviour
+also blue print to create objects 
+logical entity 
+
+
+class Animal { 
+
+
+// properties ----- fields, member variables 
+String color;
+String shape;
+
+
+// behaviours -----> methods
+eat()
+sleep()
+walk()
+
+
+
+                         Car 
+
+
+        |                 |                   |
+    Honda Civic    Hyundai Sonata     Totoya Rav4
+
+
+
+
+## Object 
+Instance of a class 
+which holds the memory 
+
+
+
+             Phone 
+Samsung      Iphone 
+
+
+
+
+# methods 
+
+access modifier return_type method_name(datatype variable, dataType variable){
+
+    // statement of the method
+    return 
+    }
+
+
+## Problem statement
+ class Student 
+1. Name 
+2. rollNo
+3. marks1, marks2, marks3
+
+method()
+getGrade(){
+
+// based on marks, return the grade.
+}
+Marks : 50 60 80 ---- total 
+calculate the average 
+based on the average , return the grade.
+avg > 90 -- A
+avg 70  and 90 --- B
+avg less than 70 --- C 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -92,6 +92,23 @@ getGradeOfMaths()
 
 
 
+## Constructors 
+
+a special kind of method,  ----------> ()
+which has the same name as class name.
+
+does not have any return type 
+
+it is called when the object is created
+
+its used to initialize the object 
+
+1. Default constructor 
+2. Parameterized Constructor 
+
+
+
+
 
 
 

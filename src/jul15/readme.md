@@ -80,6 +80,20 @@ avg less than 70 --- C
 
 
 
+## Naming convention 
+ALl the classes, first letter should be in upper 
+
+Car , Student , Employee, Computer 
+
+all the methods, should have first Letter in lower case 
+and any subsequence word first letter should be in upper case 
+
+getGradeOfMaths()
+
+
+
+
+
 
 
 

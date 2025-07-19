@@ -92,6 +92,39 @@ $ 10000 -   5 people,
 500
 
 
+##  problem 
+
+create a class Car
+
+// take one of these as static variable 
+String brand;
+String color;
+int engineCapacity;
+
+// constructor 
+// create a method to print all the details of the car 
+
+
+
+## static methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

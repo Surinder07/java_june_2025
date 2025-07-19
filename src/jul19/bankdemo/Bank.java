@@ -6,6 +6,7 @@ public class Bank {
     String accountHolderName;
     double accountBalance;
     String accountType;
+    static double rateOfInterest = 4.5;
 
     public Bank(int accountNumber, double accountBalance) {
         this.accountNumber = accountNumber;

@@ -1,6 +1,7 @@
 package jul19;
 
 public class Book {
+
     //2
     public static void printBookDetails(){
         System.out.println("Inside the static method..");

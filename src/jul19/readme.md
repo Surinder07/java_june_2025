@@ -106,7 +106,23 @@ int engineCapacity;
 
 
 
-## static methods
+## Arrays
+
+
+1. reverse the given array
+   10,  32,    43,   21,   43,    1,   44,   42
+
+
+2. find the minimum from the given array 
+
+3. sort the given array 
+after 
+1, 10, 21, 32, 42, 43, 43, 44
+
+4. find the duplicate element in the given array 
+
+
+
 
 
 

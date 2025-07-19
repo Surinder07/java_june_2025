@@ -72,6 +72,27 @@ deposit amount
 
 
 
+## types of variables
+1. instance variable
+2. local variable 
+3. static variable 
+
+static 
+1. variable 
+2. method
+3. class
+4. block
+
+
+## static variable 
+
+$ 10000 -   5 people, 
+100
+200
+500
+
+
+
 
 
 

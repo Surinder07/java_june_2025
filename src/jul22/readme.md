@@ -26,6 +26,25 @@ Two types
 
 
  
+## String 
+
+non primitive data type 
+its a class
+combination of characters
+character array
+
+
+Strings are immutable in nature ? 
+
+immutable - you can not modify the string
+
+Student student = new Student(101,"Jatin");
+1. Using String literal 
+
+String s1 = "Pragra"; 
+
+2. Using new keyword
+String s2 = new String("Pragra");
 
 
 
@@ -35,5 +54,7 @@ Two types
 
 
 
-
-
+String s2 = "Pragra";
+String s3 = "Pragra";
+s3 = "Microsoft"  
+s1 = "pragra";

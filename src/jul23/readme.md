@@ -98,6 +98,25 @@ SIT - system integration testing
 Dev - developer testing 
 
 
+master
+    |
+staging
+    \
+feature/sunny
+\
+
+
+# commands for branches
+git branch               - to check what branch we currently have 
+git checkout branch_name - switch to another branch
+git switch branch_name
+
+git branch branch_name - to create a new branch 
+git checkout -b branch_name - shortcut to create and switch to the branch at the same time
+
+git checkout -          --> to switch branch to immediate previous branch 
+
+
 
 
 

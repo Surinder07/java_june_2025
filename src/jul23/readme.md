@@ -71,12 +71,31 @@ created some files
 5. git push 
 
 
+git log --oneline
+git log 
+
+
+commit ? 
+snapshot to the changes
+
+
+branches 
+
+git add . to bring to staging area
+git commit --> certificate
+backstage -----> Stage ------> certificate distribution 
 
 
 
+## Branches 
+pointer to the commit 
+                                            www.facebook.com
+production 
+pre prod - staging
 
-
-
+UAT - user acceptance Testing 
+SIT - system integration testing 
+Dev - developer testing 
 
 
 

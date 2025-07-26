@@ -1,5 +1,7 @@
 package jul26;
 
+import java.util.Locale;
+
 public class Test {
     public static void main(String[] args) {
 
@@ -22,6 +24,8 @@ public class Test {
         System.out.println(s1.indexOf('a'));
 
         System.out.println(s1.trim());
+
+
 
 
 

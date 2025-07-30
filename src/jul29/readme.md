@@ -53,3 +53,39 @@ process of hiding the internal implementation details of the class.
 // 10 mins to implement the same 
 
 
+FileMangementSystem 
+1. ReadOnly      - view only file, name cannot be changed    - getters
+2. WriteOnly     - upload only , file name cannot be seen/visible - setters
+3. ReadAndWriteFiles - editable file   - both  - getters/setters
+create classes based on these file type 
+
+should protect the internal filename from unauthorized access or modification.
+
+
+class ReadOnlyFile {
+
+private String fileName;
+
+
+
+
+## Abstraction 
+
+data hiding
+hiding complexity and showing only essential features 
+
+mobile phone : 
+
+abstraction can be achieved by two ways 
+1. abstract classes [0-100%] 
+2. Interfaces [100%]
+
+
+## abstract classes 
+how to create abstract classes 
+
+1. using abstract keyword
+
+
+
+

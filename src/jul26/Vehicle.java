@@ -1,6 +1,7 @@
 package jul26;
 
 public class Vehicle {
+
     String brand;
     double speed;
     String color;

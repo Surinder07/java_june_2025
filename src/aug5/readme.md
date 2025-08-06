@@ -55,6 +55,88 @@ validate the type of card.
 process payment 
 
 
+## interfaces
+
+similar to class 
+to achieve 100 % abstraction
+
+a [contract] that a class has to fulfill while implementing/inheriting the interface
+
+   A [contract]
+   |
+  B  [has to fulfill ]
+
+
+interface A{
+
+
+
+}
+
+1. Object cannot be created
+2. support 100% abtraction, all the methods are abstract 
+3. supports/helps to acheive multiple inheritance 
+
+
+class   extends  
+|
+class
+
+
+interface  implements
+|
+class 
+
+
+
+## Multiple inheritance 
+
+            A [run]    run() B           C run()
+             |              |           |           
+                        
+                            D 
+
+
+
+## Problem 
+
+Notifier  [Interface]
+1. notifyUser(String message);
+
+
+EmailNotifier
+notifyUser(String message){
+   sout("Sending email notification" + message)
+}
+
+SMSNotifier
+
+PushNotifier
+
+Main 
+1. create object of each class and print the respective methods..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

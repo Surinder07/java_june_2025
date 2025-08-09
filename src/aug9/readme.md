@@ -35,17 +35,18 @@ multiple inheritance
                         SocialMedia ---- 
 1. entertainment                            2. Professional
 
-videoBased,   PictureBased,  Hybrid             Twitter   , LinkedIn
+videoBased,   PictureBased,  Hybrid             abstract class Twitter   , LinkedIn
 
 
 [connections, post pictures and status, messages, comments]
-
 
 
 Facebook             Instagram              Whatsapp        Snapchat
 Twitter             LinkedIn
 
 
+
+PragraSocialMedia
 
 
 

@@ -1,5 +1,7 @@
 package aug9;
 
+import aug9.classes.Facebook;
+
 public class SocialMediaMain {
     public static void main(String[] args) {
 

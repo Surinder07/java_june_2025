@@ -1,4 +1,4 @@
-package aug9;
+package aug9.classes;
 
 public class PictureBasedSocialMedia {
 }

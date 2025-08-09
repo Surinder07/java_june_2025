@@ -5,4 +5,8 @@ public interface ProfessionalSocialMedia {
     void jobPosting();
     void professionalUserProfile();
 
+    interface  Postable {
+         void videoBasedPost();
+         void textBasedPost();
+    }
 }

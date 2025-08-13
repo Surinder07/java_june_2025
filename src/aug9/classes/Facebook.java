@@ -33,6 +33,11 @@ public class Facebook extends PictureBasedSocialMedia implements HybridSocialMed
     }
 
     @Override
+    public int numberOfPost() {
+        return 0;
+    }
+
+    @Override
     public void videoBasedPost() {
 
     }

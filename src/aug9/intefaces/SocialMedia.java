@@ -5,4 +5,5 @@ public interface SocialMedia {
     void uploadPicture();
     void makePost();
     void makeConnections();
+    int numberOfPost();
 }

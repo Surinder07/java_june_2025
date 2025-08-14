@@ -64,7 +64,15 @@ Main
 1. create objects and handle all the scenarios.
 
 
+HashMap
 
 
+Data structure
+Map<K,V>
 
+interface User{
+id:number
+
+
+String name;
 

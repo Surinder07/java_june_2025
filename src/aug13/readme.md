@@ -74,7 +74,8 @@ send that token as a part of request in the bearer token under auth tab in postm
 
 
 
-
+## Swagger 
+https://editor.swagger.io/
 
 
 

@@ -14,16 +14,16 @@ public class Test {
         map.put(null, "Zakir");
         map.put(102, "Vrunda");
         System.out.println(map);
-
-        Set<Integer> keyset = map.keySet();
-        System.out.println("Set of keys " + keyset);
-        System.out.println("Values : "+map.values());
+//
+//        Set<Integer> keyset = map.keySet();
+//        System.out.println("Set of keys " + keyset);
+//        System.out.println("Values : "+map.values());
         System.out.println("Entry set : "+map.entrySet());
-        System.out.println("Contains key 110 : "+map.containsKey(110));
-        System.out.println("Value for 102 : "+map.get(102));
-        System.out.println("Get or default :  "+map.getOrDefault(110, "10000"));
-        System.out.println("Map put if absent "+map.putIfAbsent(101, "Test"));
-        System.out.println(map);
+//        System.out.println("Contains key 110 : "+map.containsKey(110));
+//        System.out.println("Value for 102 : "+map.get(102));
+//        System.out.println("Get or default :  "+map.getOrDefault(110, "10000"));
+//        System.out.println("Map put if absent "+map.putIfAbsent(101, "Test"));
+//        System.out.println(map);
 
 
 

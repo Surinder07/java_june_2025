@@ -72,6 +72,43 @@ LIFO - Last in first out
 
 
 
+# Set 
+
+does not allow duplicates
+
+
+
+
+1. HashSet
+ does not allow duplicates  
+ no order
+ Unique elements
+ null is allowed but only 1 
+
+2. LinkedHashSet 
+
+  it maintains the order of insertion 
+
+3. TreeSet
+ maintains natural sorting order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

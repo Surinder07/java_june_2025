@@ -26,6 +26,25 @@ load factor 0.75 - 75% full
 
 
 
+HOME take
+1. read about Hashing and HashTables 
+2. Practice TreeMap Methods, LinkedHashMap
+
+## 
+HashMap 
+# no order
+
+TreeMap 
+## Natural order
+
+
+LinkedHashMap
+## Insertion order 
+
+
+
+
+
 
 
 

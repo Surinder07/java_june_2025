@@ -25,6 +25,7 @@ public class EmployeeMain {
 
         list.sort((e1, e2) -> Double.compare(e1.getSalary(), e2.getSalary()));
         Collections.sort(list, new SalaryComparator());
+
         System.out.println("Order based on salary : "+list);
     }
 }

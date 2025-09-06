@@ -1,17 +1,26 @@
+import aug5.Animal;
+
 public class Main {
     public static void main(String[] args) {
 
+        Main main = new Main();
+        main.set();
+    }
 
-        int x = 10;
-        System.out.println(++x);  // 11
-        int y = x;
-        System.out.println(x);   // 11
-        System.out.println(++y);  //12
-
-
-        // int x; // declaration
-        //int y = 10; // initilization
+    public  void set(){
+        Animal animal = new Animal() {
+            @Override
+            public void eat() {
 
 
+            }
+
+            @Override
+            public void makeSound() {
+
+            }
+        };
+        animal.makeSound();
+        animal.eat();
     }
 }

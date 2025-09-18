@@ -82,6 +82,39 @@ from EMPLOYEE where NOT EMPLOYEE_ADDRESS = 'Canada';
 
 
 
+-- distinct
+
+select DISTINCT  EMPLOYEE_ADDRESS from EMPLOYEE;
+
+-- list of countries, find all the employess in those countries
+-- Canada, Japan, Chile
+
+select * from EMPLOYEE where EMPLOYEE_ADDRESS IN ('Canada', 'Japan', 'Chile');
+
+-- NOT IN
+select * from EMPLOYEE where EMPLOYEE_ADDRESS NOT IN ('Canada', 'Japan', 'Chile');
+
+-- find all the employees between salary 50K 70K
+
+select *
+from EMPLOYEE where EMPLOYEE_SALARY BETWEEN 50000 AND 75000;
+
+-- not between
+select *
+from EMPLOYEE where EMPLOYEE_SALARY NOT BETWEEN 50000 AND 75000;
+
+
+-- fetch employee name starts with S
+-- LIKE
+select *
+from EMPLOYEE where EMPLOYEE_NAME like 'S%';
+
+
+-- name contains S
+select *
+from EMPLOYEE where EMPLOYEE_NAME like '%S%';
+
+
 
 
 

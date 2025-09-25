@@ -152,6 +152,71 @@ select avg(EMPLOYEE_SALARY) from EMPLOYEE;
 
 
 
+## JOINS 
+whenver we wanted to fetch data from multiple tables
+inner join  - common between the two tables
+1. Left join  - everything from the left table and common from the right
+2. Right Join - everything from the right table and common from the left
+3. Full join - all the data from both tables 
+
+
+
+show databases ;
+
+use pragra;
+show tables ;
+
+select *
+from EMPLOYEE;
+select * from TITLES;
+
+-- inner join
+select e.EMPLOYEE_ID, e.EMPLOYEE_NAME, t.EMPLOYEE_TITLE from EMPLOYEE e
+inner join
+TITLES t
+ON
+e.EMPLOYEE_ID = t.EMPLOYEE_ID;
+
+
+-- left join
+select e.EMPLOYEE_ID, e.EMPLOYEE_NAME, t.EMPLOYEE_TITLE from EMPLOYEE e
+left join
+TITLES t
+ON
+e.EMPLOYEE_ID = t.EMPLOYEE_ID;
+
+insert into EMPLOYEE values(1008, 'James','Canada', 123412321, 45354,'M', '2017-01-01' );
+
+
+-- right join
+select e.EMPLOYEE_ID, e.EMPLOYEE_NAME, t.EMPLOYEE_TITLE from EMPLOYEE e
+right join
+TITLES t
+ON
+e.EMPLOYEE_ID = t.EMPLOYEE_ID;
+
+
+-- FULL JOIN
+
+select e.EMPLOYEE_ID, e.EMPLOYEE_NAME, t.EMPLOYEE_TITLE from EMPLOYEE e
+left join
+TITLES t
+ON
+e.EMPLOYEE_ID = t.EMPLOYEE_ID
+
+UNION
+
+select e.EMPLOYEE_ID, e.EMPLOYEE_NAME, t.EMPLOYEE_TITLE from EMPLOYEE e
+right join
+TITLES t
+ON
+e.EMPLOYEE_ID = t.EMPLOYEE_ID;
+
+
+
+
+
+
 
 
 
